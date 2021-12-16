@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    "test/*",
+    "logs/*",
+    "dist/*",
+    "node_modules/*"
+  ],
+  "watch": [
+    "src/"
+  ],
+  "delay": 1000,
+  "ext": "js, mjs"
+}

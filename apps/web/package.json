@@ -1,0 +1,14 @@
+{
+  "name": "@litlag/web",
+  "version": "0.0.1",
+  "private": true,
+  "description": "web server",
+  "main": "./dist/index.js",
+  "scripts": {
+    "pack": "./do.sh -a package",
+    "serve": "./do.sh -a serve",
+    "build": "./do.sh -a build",
+    "start":"npm run build && npm run serve",
+    "watch": "nodemon --config ./conf_nodemon.json --exec npm run start"
+  }
+}

@@ -1,0 +1,4 @@
+{"pkg": {
+  "targets": [ "node16-win-x64" ],
+  "outputPath": "windows"
+}}
