@@ -1,4 +1,4 @@
-###### Created by litolagunday@gmail.com  ######
+###### Created by llag@gmail.com  ######
   This monorepo is a JS boilerplate for targetting different platforms. It is using npm workspaces please use `npm 7`, implement symlinking if not possible. Default workspace folders are Web, Mobile(android), Desktop(windows) and a core/common package for shared components.
 
 Development stack:
