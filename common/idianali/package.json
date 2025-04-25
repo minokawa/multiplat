@@ -1,0 +1,16 @@
+{
+  "name": "@litlag/idianali",
+  "version": "1.0.0",
+  "description": "dependency injection",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".":"./dist/index.js",
+    "./package.json": "./package.json",
+    "./binancespot": "./dist/binancespot.js"
+  },
+  "scripts": {
+    "build": "./do.sh -a build",
+    "watch": "nodemon --config ./conf_nodemon.json --exec npm run build"
+  }
+}
