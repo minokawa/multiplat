@@ -20,7 +20,6 @@
     "url": "git+ssh://git@bitbucket.org/idianali/moonrocket.git"
   },
   "keywords": [],
-  "author": "litolagunday@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
